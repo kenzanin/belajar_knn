@@ -31,23 +31,23 @@ int main(int, char **) {
   float in[input] = {0, 0};
   int result = myKnn.classify(in, 1);
   std::printf("input: %d , %d output: %s\n", static_cast<int>(in[0]),
-              static_cast<int>(in[0]), label[result]);
+              static_cast<int>(in[1]), label[result]);
 
   in[0] = 0;
   in[1] = 1;
   result = myKnn.classify(in, 1);
   std::printf("input: %d , %d output: %s\n", static_cast<int>(in[0]),
-              static_cast<int>(in[0]), label[result]);
+              static_cast<int>(in[1]), label[result]);
 
   in[0] = 1;
   in[1] = 0;
   result = myKnn.classify(in, 1);
   std::printf("input: %d , %d output: %s\n", static_cast<int>(in[0]),
-              static_cast<int>(in[0]), label[result]);
+              static_cast<int>(in[1]), label[result]);
 
   in[0] = 1;
   in[1] = 1;
   result = myKnn.classify(in, 1);
   std::printf("input: %d , %d output: %s\n", static_cast<int>(in[0]),
-              static_cast<int>(in[0]), label[result]);
+              static_cast<int>(in[1]), label[result]);
 }
