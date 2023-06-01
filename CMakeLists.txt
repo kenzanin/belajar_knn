@@ -23,3 +23,6 @@ target_link_libraries(and_gate ardunio_knn)
 
 add_executable(xor_gate xor_gate.cpp)
 target_link_libraries(xor_gate ardunio_knn)
+
+add_executable(near near.cpp)
+target_link_libraries(near ardunio_knn)
