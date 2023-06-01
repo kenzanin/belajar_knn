@@ -1,7 +1,5 @@
 #include "Arduino_KNN.h"
 
-#include "KNNClassifier.h"
-#include "iostream"
 #include <cstdio>
 
 const int input = 1;
